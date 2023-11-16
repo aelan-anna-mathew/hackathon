@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "npm run build",  // Replace with your actual build command
+    "build": "npm run build", 
     "deploy": "netlify deploy --prod"
   },
   "keywords": [],
