@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",  
-    "build": "npm run generate", 
-    "generate": "your-build-command-here", 
+    "start": "node index.js",
+    "build": "npm run build",  // Replace with your actual build command
     "deploy": "netlify deploy --prod"
   },
   "keywords": [],
