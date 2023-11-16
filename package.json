@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "netlify deploy --prod"
+    "start": "node index.js",  
+    "build": "npm run generate", 
+    "generate": "your-build-command-here", 
+    "deploy": "netlify deploy --prod"
   },
   "keywords": [],
   "author": "",
